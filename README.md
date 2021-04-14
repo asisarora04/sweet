@@ -1,7 +1,3 @@
-Project Proposal	
-  Bluetooth Controlled Car  :
-A Project Proposal March 5th 2021
-Student Gurasis Singh, Himanshu Sharma, Noordeep Singh
 Introduction
 In this paper we describe a modification of a Bluetooth Controlled Car with Arduino UNO. The original project, developed by Vishal Soni on hackster.io, describes a car that is controlled by mobile using Bluetooth. This car is loaded with some extra features which are controlled with various sensors. Such as Music, lights, fan and a start-stop button .
 Novel Contribution
@@ -21,7 +17,7 @@ In addition, the following materials are required:
 -	Photo resistor
 -	Piezo buzzer
 
-There will not be many set-backs as we are quite competent when it comes to electronics. 
+There were not many set-backs as we are quite competent when it comes to electronics. 
 Team Roles
 Being the part of the team we allotted different roles to each other depending on our capabilities. 
 •	Gurasis Singh being a good writer has the responsibility of documentation. 
