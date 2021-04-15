@@ -149,8 +149,11 @@ void Stop() // declaration of stop function
 https://youtu.be/3KpJjl8C51g
 ## *Challenges*
 -So whenever we play with electronics we go through a lot of mess, So our part started when we tried plugging in bluetooth we thought it was working fine but it took us     	moment to realise that its not working, So we order HC-06 new one. 
+
 -Frequency setting should be same as the serial begin and the serial monitor bauds.
+
 -We accidently wrote delay 500 which gave us trouble spinning wheel.
+
 -So we had a real hard time to set the communication between bluetooth and arduino, later fixed by trying many times with serial monitor.
 
 ## *Team Roles*
@@ -170,5 +173,7 @@ We got the project help from ***Mr.Vishal Soni***'s project.
  https://www.hackster.io/vishal-soni/mobile-controlled-bluetooth-car-easy-simple-hc-05-59a002
 #### ***Special Thanks***
 ***Alex Clarke***, the man who played the master stroke as he helped us on the last day as we were stuck with an error.
+
 *The lit trio (**Levi,Payton,Justin**) of Lab instructors was amazing.*
+
 *And yes finally **Dr.T**, name is enough. We had a beautiful semester with you.
