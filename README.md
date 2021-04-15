@@ -172,8 +172,8 @@ We got the project help from ***Mr.Vishal Soni***'s project.
 
  https://www.hackster.io/vishal-soni/mobile-controlled-bluetooth-car-easy-simple-hc-05-59a002
 #### ***Special Thanks***
-***Alex Clarke***, the man who played the master stroke as he helped us on the last day as we were stuck with an error.
+***Alex Clarke***, *the man who played the master stroke as he helped us on the last day as we were stuck with an error.*
 
 *The lit trio (**Levi,Payton,Justin**) of Lab instructors was amazing.*
 
-*And yes finally **Dr.T**, name is enough. We had a beautiful semester with you.
+*And yes finally **Dr.T**, name is enough. We had a beautiful semester with you.*
