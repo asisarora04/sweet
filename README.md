@@ -146,7 +146,7 @@ void Stop() // declaration of stop function
 -Once Connections are done play and have fun.
 
 ***Link to youtube video of our project***
-https://youtu.be/3KpJjl8C51g
+https://youtu.be/RKsb_GMkkJw
 ## *Challenges*
 -So whenever we play with electronics we go through a lot of mess, So our part started when we tried plugging in bluetooth we thought it was working fine but it took us     	moment to realise that its not working, So we order HC-06 new one. 
 
