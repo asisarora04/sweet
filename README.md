@@ -167,10 +167,15 @@ https://youtu.be/RKsb_GMkkJw
 
 ## ***Credits***
 We got the project help from ***Mr.Vishal Soni***'s project.
+## ***References***
+Project link
 
-*Refer to the link below for his work*
+https://www.hackster.io/vishal-soni/mobile-controlled-bluetooth-car-easy-simple-hc-05-59a002
 
- https://www.hackster.io/vishal-soni/mobile-controlled-bluetooth-car-easy-simple-hc-05-59a002
+Code Link
+
+https://www.hackster.io/vishal-soni/mobile-controlled-bluetooth-car-easy-simple-hc-05-59a002#code
+
 #### ***Special Thanks***
 ***Alex Clarke***, *the man who played the master stroke as he helped us on the last day as we were stuck with an error.*
 
