@@ -15,6 +15,22 @@ The aha moment was when we saw of our team member’s  brother playing games on 
 -	Jumper Wires
 	
 ## *Circuit* 
+You have to be very careful while making all the connections and it can be very confusing, if you don’t know how to do. The
+Instructions for each connection are as follow:
+**Bluetooth:**
+For Bluetooth we have to connect ***(VCC to 5V) , (GND to GND) , (TXD to RXD) , (RXD to TXD).***
+
+**Battery:**
+For battery we have to connect the positive terminal to of the battery to the (M+) terminal in separate two slots made for power. Further, we have to connect negative terminal to the (GND) terminal of the power supply.
+
+**HC- SR04 (sensor):**
+For sensor we have to connect ***(GND to GND) , (ECHO to A1 terminal) , (TRIG to A0 terminal) , (VCC to 5V).***
+
+**MOTORS**:
+For connecting the motors we have to connect the positive and negative terminal of the one motor to M3 terminal. Similarly we also have to connect the other motor positive and negative terminal of the other motor to M4 terminal.
+
+NOTE: If you are making the 4 motor Bluetooth car then you also have to connect to the M1 and M2 terminal.
+![image](https://user-images.githubusercontent.com/79688020/114804129-0584ad80-9d5e-11eb-8e6b-81c6b7704454.png)
 
 ## *Software requirements*
 - Arduino IDE
@@ -29,9 +45,7 @@ The aha moment was when we saw of our team member’s  brother playing games on 
    run, forward, backward, set speed and others.
    This makes the code loosely coupled and gives flexibility over editing. We can set the particular wheels that are in operation and edit the code accordingly.***
 *******************************************************************************************************************************************************************
-***The final project consists of a bluetooth controlled arduino car along with other sensors. With the same code the car can be controlled manually and
-   automatically with the Bluetooth RC controller app. The code can be used to control the can manually like when we open the serial monitor we can type the command like
-   "F" for forward , "B" for backward, "R" for right, "L" for left and "s" for stop, after putting the command we can press send and it will obey the command.***
+***"F" for forward , "B" for backward, "R" for right, "L" for left and "s" for stop, after putting the command we can press send and it will obey the command.***
 *******************************************************************************************************************************************************************
   ***So for manual reading we have chosen character "bt" it reads the instructions from the serial monitor.
      we choose 1KHZ (AF_DCMotor motor3(3,MOTOR34_1KHZ) because we are using a regular battery for power source but if we use wired power source then we can use 64kHZ
@@ -126,14 +140,35 @@ void Stop() // declaration of stop function
 ```
 ## *Operating and Video*
 -Upload the code on arduino, unplug from computer. 
+
 -Connect bluetooth RC controller app on phone to HC-06.
+
 -Once Connections are done play and have fun.
+
 ***Link to youtube video of our project***
+https://youtu.be/3KpJjl8C51g
+## *Challenges*
+-So whenever we play with electronics we go through a lot of mess, So our part started when we tried plugging in bluetooth we thought it was working fine but it took us     	moment to realise that its not working, So we order HC-06 new one. 
+-Frequency setting should be same as the serial begin and the serial monitor bauds.
+-We accidently wrote delay 500 which gave us trouble spinning wheel.
+-So we had a real hard time to set the communication between bluetooth and arduino, later fixed by trying many times with serial monitor.
+
 ## *Team Roles*
 *Being the part of the team we allotted different roles to each other depending on our capabilities.* 
+
 •***Gurasis Singh***, Good writer has the responsibility of documentation. 
+
 •***Noordeep Singh***, Good programmer has the responsibility to write code. 
+
 •***Himanshu Sharma***, Good sense of electronics has the role to wire everything up
+
 ## ***Credits***
 We got the project help from ***Mr.Vishal Soni***'s project.
-*Refer to this link for his work* https://www.hackster.io/vishal-soni/mobile-controlled-bluetooth-car-easy-simple-hc-05-59a002
+
+*Refer to the link below for his work*
+
+ https://www.hackster.io/vishal-soni/mobile-controlled-bluetooth-car-easy-simple-hc-05-59a002
+#### ***Special Thanks***
+***Alex Clarke***, the man who played the master stroke as he helped us on the last day as we were stuck with an error.
+*The lit trio (**Levi,Payton,Justin**) of Lab instructors was amazing.*
+*And yes finally **Dr.T**, name is enough. We had a beautiful semester with you.
